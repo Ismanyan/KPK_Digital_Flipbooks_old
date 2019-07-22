@@ -1,0 +1,21 @@
+Options -Indexes
+Options -Multiviews
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home?$ index.php
+RewriteRule ^kontak?$ kontak.php
+RewriteRule ^petunjuk?$ petunjuk.php
+
+RewriteRule ^kategori/Anak?$ kategori/anak.php
+RewriteRule ^kategori/DuniaUsaha?$ kategori/duniaUsaha.php
+RewriteRule ^kategori/PendidikanAntiKorupsi?$ kategori/pendidikanAntiKorupsi.php
+RewriteRule ^kategori/Politik?$ kategori/politik.php
+RewriteRule ^kategori/Umum?$ kategori/umum.php
+
+RewriteRule ^kategori/PendidikanDasarDanMenengah?$ kategori/panduanPendidikanAntikorupsi/dasarMenengah.php
+RewriteRule ^kategori/Pendidikantinggi?$ kategori/panduanPendidikanAntikorupsi/tinggi.php
+
+RewriteRule ^admin/kpk?$ admin/index.php
