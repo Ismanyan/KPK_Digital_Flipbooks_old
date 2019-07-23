@@ -90,6 +90,7 @@
           <input class="form-control mr-sm-2" name="keyword" type="search" placeholder="Search" aria-label="Search" style="width:74%;">
           <button class="btn btn-outline-success my-2 my-sm-0" name="submit" type="submit" style="width:25%;">Search</button>
         </form>
+        <a class="btn btn-success my-2 w-100" href="addPdf.php">Tambah</a>
       </div>
     </div>
     <!-- End Nav -->
